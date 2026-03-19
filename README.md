@@ -19,7 +19,7 @@
 
 ## Overview
 
-This project tackles an inverse design problem using the Mechanical MNIST dataset: given a finite element analysis (FEA) displacement field as input, reconstruct the original 28x28 bitmap image that produced it. A multilayer perceptron (MLP) is trained on MNIST handwritten digits to learn this mapping from mechanical response back to geometry. The trained model is then tested on EMNIST letter data — geometries it was never trained on — to evaluate out-of-distribution generalization without transfer learning or fine-tuning.
+This project tackles an inverse design problem using the Mechanical MNIST dataset: given a finite element analysis (FEA) displacement field as input, reconstruct the original 28x28 bitmap image that produced it. A multilayer perceptron (MLP) is trained on MNIST handwritten digits to learn this mapping from mechanical response back to geometry. The trained model is then tested on EMNIST letter data (geometries it was never trained on) to evaluate out-of-distribution generalization without transfer learning or fine-tuning.
 
 ---
 
